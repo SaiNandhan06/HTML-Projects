@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio | HTML</title>
+</head>
+<body>
+    <header>
+        <h1>PORTFOLIO</h1>
+        <div>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+    <!-- Portfolio holder details -->
+    <section>
+        <div class="hero-img">
+            <img src="https://placehold.co/100x100" alt="Potrait of SaiNandhan" />
+        </div>
+        <h2>Hi, I'm SaiNandhan </h2>
+        <div>
+        <p>Full Stack Developer | Tech  Enthusiast | Software Developer</p>
+        <a href="#project">View My Work</a>
+        </div>
+    </section>
+
+    <!-- About me -->
+     <section id="about">
+        <h3>About Me</h3>
+        <div>
+            <p><b>Hi, I'm SaiNandhan, a Full Stack Developer</b></p>
+            <p>I'm passionate about creating beautiful, functional, and user-friendly digital experiences. With a background in both design and development, I bring a unique perspective to every project I work on.</p>
+            <p>My journey in tech started when I was 12 years old, modifying simple HTML templates. Since then, I've worked with numerous startups and established companies to bring their digital visions to life.</p>
+            <p>When I'm not coding, you can find me hiking, reading science fiction, or experimenting with new recipes in the kitchen.</p>
+        </div>
+        <div>
+            <table border>
+                <caption><b>SKILLS</b></caption>
+                <thead>
+                    <tr>
+                        <th>Languages</th>
+                        <th>Percentage</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>HTML/CSS</td>
+                        <td>90%</td>
+                    </tr>
+                    <tr>
+                        <td>JavaScript</td>
+                        <td>85%</td>
+                    </tr>
+                    <tr>
+                        <td>React</td>
+                        <td>80%</td>
+                    </tr>
+                    <tr>
+                        <td>Node.js</td>
+                        <td>75%</td>
+                    </tr>
+                    <tr>
+                        <td>Python</td>
+                        <td>70%</td>
+                    </tr>
+                    <tr>
+                        <td>Java</td>
+                        <td>65%</td>
+                    </tr> 
+                    <tr>
+                        <td>C Program</td>
+                        <td>60%</td>
+                    </tr>   
+                </tbody>
+            </table>
+        </div>
+     </section>
+
+
+     <!-- Education -->
+      <section id="education">
+        <h3>Education</h3>
+        <div>
+            <p>2024-2028</p>
+            <p>Bachelor's in Computer Science Engineering</p>
+            <p>KL University with honors.Specialization in AI computational Intelligence. with 9.58 CGPA</p>
+        </div>
+        <div>
+            <p>2022-2024</p>
+            <p>Intermediate Education</p>
+            <p>Alphores Junior College with 96.8%</p>
+        </div>
+        <div>
+            <p>2021-2022</p>
+            <p>10th Grade</p>
+            <p>Vijaya Ratna High School with 95%</p>
+        </div>
+      </section>
+
+      <!-- Projects -->
+       <section id="project">
+        <h3>Projects</h3>
+        <div>
+            <img src="https://placehold.co/600x400" alt="E-Commerce project">
+            <h4>E-Commerce Dashboard</h4>
+            <p>A comprehensive admin dashboard for e-commerce platforms with real-time analytics, inventory management, and customer insights.</p>
+            
+        </div>
+        <div>
+            <img src="https://placehold.co/600x400" alt="Fitness App project">
+            <h4>Fitness Tracker App</h4>
+            <p>A mobile application that tracks workouts, nutrition, and health metrics with personalized recommendations and social features.</p>
+            
+        </div>
+        <div>
+            <img src="https://placehold.co/600x400" alt="travel booking platform">
+            <h4>Travel Booking Platform</h4>
+            <p>A full-stack travel booking website with hotel listings, flight search, and itinerary planning tools.</p>
+            
+        </div>
+        <div>
+            <img src="https://placehold.co/600x400" alt="task managaemnt system">
+            <h4>Task Management System</h4>
+            <p>A collaborative task management tool with kanban boards, time tracking, and team productivity analytics.</p>
+            
+        </div>
+        <div>
+            <img src="https://placehold.co/600x400" alt="AI chatbot">
+            <h4>AI Chatbot</h4>
+            <p>An intelligent chatbot that uses natural language processing to provide customer support and answer queries.</p>
+           
+        </div>
+        <div>
+            <img src="https://placehold.co/600x400" alt="Financial dashboard">
+            <h4>Financial Dashboard</h4>
+            <p>A personal finance dashboard that aggregates accounts, tracks spending, and provides investment insights.</p>
+            
+        </div>
+       </section>
+
+       <!-- Contact me -->
+        <section id="contact">
+            <h3>Contact Me</h3>
+            <div>
+                <p>Location: Hyderabad, India</p>
+            </div>
+            <div>
+                <p>Email: sainandhanmucharla@gmail.com</p>
+            </div>
+            <div>
+                <p>Phone: +91 90876 54321</p>
+            </div>
+            <form action="" method="post" id="contact-form">
+                <div>
+                <label for="name">
+                    <input type="text" name="name" id="name" placeholder="Your Name" required>
+                </label>
+                </div>
+                <div>
+                <label for="email">
+                    <input type="email" name="email" id="email" placeholder="Your Email" required>
+                </label>
+                </div>
+                <div>
+                    <label for="subject">
+                        <input type="text" name="subject" id="subject" placeholder="Subject" required>
+                    </label>
+                </div>
+                <div>
+                <label for="msg">
+                    <textarea name="msg" id="msg" placeholder="Your Message" required></textarea>
+                </label>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+
+        <footer>
+            <p>&copy;2025 Sai Nandhan.All Rights Reserved.</p>
+</body>
+</html>
